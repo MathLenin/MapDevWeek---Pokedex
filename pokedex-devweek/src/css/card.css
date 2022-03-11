@@ -1,0 +1,89 @@
+.pokecard{
+    display: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+}
+
+.pokecard .top-card{
+    padding: 30px 40px 0;
+}
+
+.pokecard .name{
+    margin-bottom: 5px;
+}
+
+.pokecard .type{
+    font-size: 12px;
+    background-color: #ffffff;
+    opacity: 0.7;
+    border-radius: 10px;
+    padding: 2px 10px;
+    box-shadow: #06182c66 0px 0px 0px 2px, #06182ca6 0px 4px 6px -1px, #ffffff14 0px 1px 0px inset;
+}
+
+.pokecard .detail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pokecard .card-img{
+    width: 350px;
+    height: 350px;
+}
+
+.pokecard img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.pokecard .info-card{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 30px 50px;
+    margin-top: -70px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.pokecard .info-card h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #6b727a;   
+}
+
+.pokecard .info-card .status, .pokecard .info-card .skills{
+    padding: 0 10px;
+    width: 180px;
+}
+
+.pokecard .info-card .status ul li, .pokecard .info-card .skills ul li{
+    border-bottom: 1px solid #c3c4c5;
+    padding: 0 0 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.pokecard.open{
+    display: block;
+}
+
+.tipo-fogo{
+    background-color: #ed8a8b;
+}
+.tipo-agua{
+    background-color: #8abded;
+}
+.tipo-raio{
+    background-color: #fcc719;
+}
+.tipo-grama{
+    background-color: #92ed8a;
+}
+.tipo-dragao{
+    background-color: #c29791;
+}
+.tipo-fntasma{
+    background-color: #851e85;
+}
