@@ -22,9 +22,7 @@
         <div class="pokedex">
             <div class="card">
 
-                <!-- Bulbasaur -->
-                <div class="pokecard
-                open tipo-grama">
+                <div class="pokecard tipo-grama show" id="card-bulbasaur">
                     <div class="top-card">
                         <div class="detail">
                             <h2 class="name">Bulbasaur </h2>
@@ -56,8 +54,7 @@
                     </div>
                 </div>
 
-                <!-- Charmander -->
-                <div class="pokecard">
+                <div class="pokecard tipo-fogo" id="card-charmander">
                     <div class="top-card">
                         <div class="detail">
                             <h2 class="name">Charmander</h2>
@@ -89,8 +86,8 @@
                         </div>
                     </div>
                 </div>
-                <!-- Dragonite -->
-                <div class="pokecard">
+                
+                <div class="pokecard tipo-dragao" id="card-dragonite">
                     <div class="top-card">
                         <div class="detail">
                             <h2 class="name">Dragonite</h2>
@@ -123,8 +120,7 @@
                     </div>
                 </div>
 
-                <!-- Gengar -->
-                <div class="pokecard">
+                <div class="pokecard tipo-fantasma" id="card-gengar">
                     <div class="top-card">
                         <div class="detail">
                             <h2 class="name">Gengar</h2>
@@ -157,8 +153,7 @@
                     </div>
                 </div>
 
-                <!-- Gyarados -->
-                <div class="pokecard">
+                <div class="pokecard tipo-agua" id="card-gyarados">
                     <div class="top-card">
                         <div class="detail">
                             <h2 class="name">Gyarados</h2>
@@ -191,8 +186,7 @@
                     </div>
                 </div>
 
-                <!-- Pikachu -->
-                <div class="pokecard">
+                <div class="pokecard tipo-raio" id="card-pikachu">
                     <div class="top-card">
                         <div class="detail">
                             <h2 class="name">Pikachu</h2>
@@ -228,34 +222,35 @@
             </div>
             <nav class="list">
                 <ul>
-                    <li class="pokemon ativo">
+                    <li class="pokemon select" id="bulbasaur">
                         <img src="src/image/cabeca-bulbasaur.png" alt="cabeca-bulbasaur">
                         <span>Bulbasaur</span>
                     </li>
-                    <li class="pokemon">
+                    <li class="pokemon" id="charmander">
                         <img src="src/image/cabeca-charmander.png" alt="cabeca-charmander">
                         <span>Charmander</span>
                     </li>
-                    <li class="pokemon">
-                        <img src="src/image/cabeca-dragonite.png" alt="cabeca-dragonite">
-                        <span>Dragonite</span>
+                    <li class="pokemon" id="pikachu">
+                        <img src="src/image/cabeca-pikachu.png" alt="cabeca-pikachu">
+                        <span>Pikachu</span>
                     </li>
-                    <li class="pokemon">
+                    <li class="pokemon" id="gengar">
                         <img src="src/image/cabeca-gengar.png" alt="cabeca-gengar">
                         <span>Gengar</span>
                     </li>
-                    <li class="pokemon">
+                    <li class="pokemon" id="gyarados">
                         <img src="src/image/cabeca-gyarados.png" alt="cabeca-gyarados">
                         <span>Gyarados</span>
                     </li>
-                    <li class="pokemon">
-                        <img src="src/image/cabeca-pikachu.png" alt="cabeca-pikachu">
-                        <span>Pikachu</span>
+                    <li class="pokemon" id="dragonite">
+                        <img src="src/image/cabeca-dragonite.png" alt="cabeca-dragonite">
+                        <span>Dragonite</span>
                     </li>
                 </ul>
             </nav>
         </div>
     </main>
+    <script src="src/js/index.js"></script>
 </body>
 
 </html>

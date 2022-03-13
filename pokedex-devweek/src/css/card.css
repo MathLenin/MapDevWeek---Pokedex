@@ -65,7 +65,7 @@
     font-size: 15px;
 }
 
-.pokecard.open{
+.pokecard.show{
     display: block;
 }
 
@@ -84,6 +84,6 @@
 .tipo-dragao{
     background-color: #c29791;
 }
-.tipo-fntasma{
+.tipo-fantasma{
     background-color: #851e85;
 }
